@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<main>
+	<dir>
+		<logs>/app/daemon/logs/</logs>
+		<sbin>/app/daemon/sbin/</sbin>
+		<bin>/app/daemon/bin/</bin>
+		<etc>/app/daemon/etc/</etc>
+		<lib>/app/daemon/lib/</lib>
+	</dir>
+	<timeZone>America/Fortaleza</timeZone>
+	<user>root</user>
+</main>

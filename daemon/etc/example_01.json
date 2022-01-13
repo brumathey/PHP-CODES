@@ -1,0 +1,18 @@
+{
+   "common": {
+      "process": {
+         "threads": "2",
+         "load": {
+            "max": "80.00",
+            "sleep": "30"
+         },
+         "libRun": "Example.class.php",
+		 "libClassName": "example",
+		 "libClassLopping": "Run",
+		 "logFileName": "example.log"
+      },
+      "lib": {
+         "param": "someparam"
+      }
+   }
+}
