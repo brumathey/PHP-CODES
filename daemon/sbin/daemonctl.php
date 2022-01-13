@@ -36,7 +36,6 @@ class daemonctl
 			$tbl->addRow(array("     help",'./daemon.php --help'," Display this Manual\n" ));
 			$tbl->addRow(array("     start",'./daemon.php --start --dest=<FILENAME|ALL> --n=<NUMBER OF THREADS>'," START Daemon process,\n <OPTION> --dest is requered (See --dest)\n" ));
 			$tbl->addRow(array("     stop",'./daemon.php --stop  --dest=<FILENAME|ALL> --n=<NUMBER OF THREADS>'," STOP Daemon process,\n <OPTION> --dest is requered (See --dest)\n" ));
-			$tbl->addRow(array("     restart",'./daemon.php --restart --dest=<FILENAME> '," RESTART Daemon process, \n <OPTION> --dest is requered (See --dest),\n <OPTION> --n not enable (See --n)\n" ));
 			$tbl->addRow(array("     status",'./daemon.php --status '," Show daemon STATUS for ALL Process\n" ));
 			$tbl->addRow(array("     fg",'./daemon.php --start --dest=<FILENAME> --fg '," Foreground Mode\n" ));
 			$tbl->addRow(array("     noloop",'./daemon.php --start  --dest=<FILENAME> --fg --noloop '," Foreground Mode, But the process will be kill after de first loop\n" ));
